@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url('https://i.pinimg.com/736x/ae/87/07/ae8707675f374b728ef9cf511d164ecd.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  background: rgba(0, 64, 128, 0.9);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.scrollingtext {
+  background-color: rgba(255,255,255,0.9);
+}
+
+nav {
+  background: rgba(0, 51, 102, 0.9);
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #a3d5ff;
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  color: #0041c2;
+  border-bottom: 2px solid #0041c2;
+  padding-bottom: 5px;
+}
+
+.grid-berita {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.kumpulanberita {
+  text-decoration: none;
+  color: inherit;
+}
+
+.beritanya {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.beritanya:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.beritanya img {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.beritanya:hover img {
+  transform: scale(1.05);
+}
+
+.teksnya {
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.beritanya:hover .teksnya {
+  transform: translateY(-3px);
+}
+
+.teksnya h3 {
+  margin-top: 0;
+  font-size: 1.1em;
+  color: #003366;
+}
+
+.teksnya small {
+  color: #555;
+  font-size: 0.85em;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.teksnya p {
+  color: #444;
+}
+
+footer {
+  background: rgba(0, 51, 102, 0.9);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
